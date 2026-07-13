@@ -1,0 +1,15 @@
+RENDER BUILD FIX
+
+This package includes a prebuilt dist/ frontend.
+Use these Render settings:
+
+Build Command:
+npm ci --registry=https://registry.npmjs.org
+
+Start Command:
+npm start
+
+Node version environment variable:
+NODE_VERSION=20.19.0
+
+Then choose Manual Deploy > Clear build cache & deploy.
