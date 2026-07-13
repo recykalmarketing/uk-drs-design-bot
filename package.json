@@ -10,17 +10,17 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": ">=20"
+    "node": "20.19.x"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "concurrently": "latest",
-    "dotenv": "latest",
-    "express": "latest",
-    "html-to-image": "latest",
-    "openai": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "vite": "latest"
+    "@vitejs/plugin-react": "6.0.3",
+    "concurrently": "10.0.3",
+    "dotenv": "17.4.2",
+    "express": "5.2.1",
+    "html-to-image": "1.11.13",
+    "openai": "6.46.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "vite": "8.1.4"
   }
 }

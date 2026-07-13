@@ -2,14 +2,14 @@ services:
   - type: web
     name: uk-drs-design-bot
     runtime: node
-    plan: starter
-    buildCommand: npm install && npm run build
+    plan: free
+    buildCommand: npm ci --registry=https://registry.npmjs.org && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
     autoDeploy: true
     envVars:
       - key: NODE_VERSION
-        value: 20
+        value: 20.19.0
       - key: OPENAI_API_KEY
         sync: false
       - key: APP_ACCESS_CODE
