@@ -1,0 +1,59 @@
+[
+  {
+    "id": "portrait",
+    "name": "LinkedIn / Instagram portrait",
+    "label": "1080 × 1350 · 4:5",
+    "width": 1080,
+    "height": 1350,
+    "group": "Social feed",
+    "recommended": true
+  },
+  {
+    "id": "square",
+    "name": "Universal social square",
+    "label": "1080 × 1080 · 1:1",
+    "width": 1080,
+    "height": 1080,
+    "group": "Social feed"
+  },
+  {
+    "id": "story",
+    "name": "Stories / Reels / vertical",
+    "label": "1080 × 1920 · 9:16",
+    "width": 1080,
+    "height": 1920,
+    "group": "Vertical"
+  },
+  {
+    "id": "landscape",
+    "name": "LinkedIn / Facebook landscape",
+    "label": "1200 × 628 · 1.91:1",
+    "width": 1200,
+    "height": 628,
+    "group": "Landscape"
+  },
+  {
+    "id": "x-landscape",
+    "name": "X landscape",
+    "label": "1920 × 1080 · 16:9",
+    "width": 1920,
+    "height": 1080,
+    "group": "Landscape"
+  },
+  {
+    "id": "email-hero",
+    "name": "Email hero banner",
+    "label": "1200 × 400 · retina-ready",
+    "width": 1200,
+    "height": 400,
+    "group": "Email"
+  },
+  {
+    "id": "email-wide",
+    "name": "Email editorial banner",
+    "label": "1200 × 600 · 2:1",
+    "width": 1200,
+    "height": 600,
+    "group": "Email"
+  }
+]
