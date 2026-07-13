@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: uk-drs-design-bot
+    runtime: node
+    plan: starter
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: APP_ACCESS_CODE
+        sync: false
+      - key: OPENAI_TEXT_MODEL
+        value: gpt-5.6-luna
+      - key: OPENAI_IMAGE_MODEL
+        value: gpt-image-1.5
+      - key: OPENAI_IMAGE_QUALITY
+        value: medium
+      - key: MONTHLY_BUDGET_USD
+        value: 95
+      - key: MONTHLY_CREATIVE_BATCH_LIMIT
+        value: 500
+      - key: MONTHLY_REGENERATION_LIMIT
+        value: 500
+      - key: ESTIMATED_COPY_COST_USD
+        value: 0.008
+      - key: ESTIMATED_REGEN_COPY_COST_USD
+        value: 0.004
+      - key: USAGE_FILE
+        value: /tmp/uk-drs-design-bot-usage.json
