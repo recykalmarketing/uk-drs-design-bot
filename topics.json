@@ -1,0 +1,391 @@
+[
+  {
+    "id": "drs-explained",
+    "title": "UK DRS explained in 60 seconds",
+    "category": "DRS basics",
+    "audiences": ["Retailers", "Consumers", "Government Authorities"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "The scheme launches on 1 October 2027.",
+      "A flat 20p refundable deposit applies to eligible containers.",
+      "Eligible containers are single-use PET plastic bottles and aluminium or steel cans from 150ml to 3 litres.",
+      "Consumers reclaim the deposit by returning an eligible empty container to an approved return point."
+    ],
+    "allowedNumbers": ["1", "2027", "20", "150", "3"],
+    "angles": ["simple explainer", "three-step journey", "deadline-led"],
+    "sourceLabel": "GOV.UK + Exchange for Change",
+    "sourceUrl": "https://www.gov.uk/guidance/deposit-return-scheme-drinks-producer-and-retailer-responsibilities"
+  },
+  {
+    "id": "why-uk-needs-drs",
+    "title": "Why the UK needs DRS",
+    "category": "Environmental impact",
+    "audiences": ["Consumers", "Government Authorities", "Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Around 25 billion single-use drinks containers are bought each year across England, Scotland and Northern Ireland.",
+      "An estimated 6.5 billion bottles and cans go to waste rather than being recycled each year.",
+      "DRS creates a cleaner, closed-loop material stream and reduces reliance on virgin material."
+    ],
+    "allowedNumbers": ["25", "6.5"],
+    "angles": ["scale of waste", "closed-loop recycling", "protect streets and nature"],
+    "sourceLabel": "Defra",
+    "sourceUrl": "https://defraenvironment.blog.gov.uk/2025/01/31/introducing-the-deposit-return-scheme-for-drinks-containers/"
+  },
+  {
+    "id": "litter-problem",
+    "title": "Bottles and cans are a major litter problem",
+    "category": "Environmental impact",
+    "audiences": ["Consumers", "Government Authorities"],
+    "scope": "UK public education",
+    "facts": [
+      "Drinks bottles and cans make up 55% of litter by volume according to Keep Britain Tidy.",
+      "International schemes have reported major reductions in bottle and can litter after DRS introduction."
+    ],
+    "allowedNumbers": ["55"],
+    "angles": ["cleaner streets", "cleaner parks", "cleaner coastlines"],
+    "sourceLabel": "Keep Britain Tidy",
+    "sourceUrl": "https://www.keepbritaintidy.org/introducing-deposit-return-scheme"
+  },
+  {
+    "id": "ninety-percent-target",
+    "title": "The 90% collection ambition",
+    "category": "Environmental impact",
+    "audiences": ["Consumers", "Government Authorities", "Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Exchange for Change is designing the scheme to achieve a 90% collection rate within three years of launch.",
+      "Higher return rates support cleaner material streams and bottle-to-bottle or can-to-can recycling."
+    ],
+    "allowedNumbers": ["90", "3"],
+    "angles": ["ambition", "circular materials", "shared action"],
+    "sourceLabel": "Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/"
+  },
+  {
+    "id": "retailer-obligations",
+    "title": "Retailer obligations from 1 October 2027",
+    "category": "Retailer readiness",
+    "audiences": ["Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Retailers selling in-scope drinks must charge the 20p deposit at the point of sale.",
+      "Groceries retailers must register and operate a manual or automated return point unless exempt.",
+      "Return point operators must repay deposits, store returned containers and display customer information."
+    ],
+    "allowedNumbers": ["1", "2027", "20"],
+    "angles": ["compliance checklist", "deadline reminder", "obligation to opportunity"],
+    "sourceLabel": "GOV.UK + Exchange for Change",
+    "sourceUrl": "https://www.gov.uk/guidance/deposit-return-scheme-drinks-producer-and-retailer-responsibilities"
+  },
+  {
+    "id": "container-scope",
+    "title": "Which containers are in scope?",
+    "category": "DRS basics",
+    "audiences": ["Retailers", "Consumers", "Government Authorities"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Single-use PET plastic bottles and aluminium or steel cans are in scope.",
+      "Container sizes run from 150ml to 3 litres.",
+      "Glass and HDPE milk bottles are not in scope for the Exchange for Change scheme."
+    ],
+    "allowedNumbers": ["150", "3"],
+    "angles": ["included versus excluded", "shelf education", "consumer checklist"],
+    "sourceLabel": "GOV.UK",
+    "sourceUrl": "https://www.gov.uk/guidance/deposit-return-scheme-drinks-producer-and-retailer-responsibilities"
+  },
+  {
+    "id": "return-point-thresholds",
+    "title": "Does your store need a return point?",
+    "category": "Retailer readiness",
+    "audiences": ["Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Urban groceries retailers under 100m² are automatically exempt from hosting a return point.",
+      "Urban retailers from 100m² to 199m² and rural retailers under 200m² may apply for a size-based exemption.",
+      "Other exemptions may cover proximity, listed buildings, site access or utility limitations.",
+      "Exempt retailers must still charge the deposit when selling in-scope drinks."
+    ],
+    "allowedNumbers": ["100", "199", "200"],
+    "angles": ["decision tree", "store-size guide", "exemption explainer"],
+    "sourceLabel": "Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/news/exchange-for-change-announces-drs-support-for-retailers/"
+  },
+  {
+    "id": "retailer-grant",
+    "title": "£6,000 support for qualifying small retailers",
+    "category": "Retailer economics",
+    "audiences": ["Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Exchange for Change has announced a £60 million grant fund for up to 10,000 qualifying small independent retailers.",
+      "Eligible sites can receive £6,000 in three annual payments of £2,000 after installing an RVM.",
+      "Detailed eligibility and application guidance is due from Exchange for Change."
+    ],
+    "allowedNumbers": ["60", "10,000", "10000", "6,000", "6000", "3", "2,000", "2000"],
+    "angles": ["grant explainer", "funding opportunity", "prepare your application"],
+    "sourceLabel": "Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/news/exchange-for-change-announces-drs-support-for-retailers/"
+  },
+  {
+    "id": "handling-fees",
+    "title": "Return handling fees: what retailers can earn",
+    "category": "Retailer economics",
+    "audiences": ["Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Manual return points receive 3p per eligible container.",
+      "Automated return points receive 5p per container for up to 225,000 annual returns.",
+      "Automated returns above 225,000 annually receive 1.3p per container.",
+      "The fee is intended to help cover equipment, staffing, training, floor space and storage costs."
+    ],
+    "allowedNumbers": ["3", "5", "225,000", "225000", "1.3"],
+    "angles": ["fee comparison", "business-case starter", "manual versus automated"],
+    "sourceLabel": "Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/news/exchange-for-change-announces-drs-support-for-retailers/"
+  },
+  {
+    "id": "manual-vs-rvm",
+    "title": "Manual return point vs RVM",
+    "category": "RVM education",
+    "audiences": ["Retailers", "Government Authorities"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "At a manual return point, staff check containers, issue refunds, bag and store returns.",
+      "An RVM scans and validates containers, issues a redeemable voucher and compacts accepted material for storage.",
+      "The right choice depends on store footprint, staff capacity and expected return volume."
+    ],
+    "allowedNumbers": [],
+    "angles": ["side-by-side comparison", "operational workload", "customer experience"],
+    "sourceLabel": "Exchange for Change FAQs",
+    "sourceUrl": "https://exchangeforchange.co.uk/faqs/"
+  },
+  {
+    "id": "rvm-buying-checklist",
+    "title": "What retailers should ask an RVM supplier",
+    "category": "RVM education",
+    "audiences": ["Retailers", "Government Authorities"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Check the footprint against available store space.",
+      "Match throughput and storage capacity to expected return volumes.",
+      "Require evidence that the machine meets Exchange for Change specifications and certification requirements.",
+      "Ask about service response, remote monitoring, data security, accessibility and deposit repayment options."
+    ],
+    "allowedNumbers": [],
+    "angles": ["procurement checklist", "five questions before buying", "RVM readiness audit"],
+    "sourceLabel": "Exchange for Change RVM specification",
+    "sourceUrl": "https://exchangeforchange.co.uk/wp-content/uploads/2026/02/UK-DMO-RVM-Specification.pdf"
+  },
+  {
+    "id": "rvm-recognition",
+    "title": "How a compliant RVM recognises a container",
+    "category": "RVM technology",
+    "audiences": ["Retailers", "Government Authorities"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "The minimum recognition combination includes barcode, basic shape, weight and metal detection.",
+      "The machine must identify registered products from the Exchange for Change Article List.",
+      "RVMs must reject non-empty or ineligible containers and support anti-fraud controls."
+    ],
+    "allowedNumbers": [],
+    "angles": ["technology explainer", "inside an RVM", "anti-fraud story"],
+    "sourceLabel": "Exchange for Change RVM specification",
+    "sourceUrl": "https://exchangeforchange.co.uk/wp-content/uploads/2026/02/UK-DMO-RVM-Specification.pdf"
+  },
+  {
+    "id": "rvm-data-connectivity",
+    "title": "The data and connectivity behind every return",
+    "category": "RVM technology",
+    "audiences": ["Retailers", "Government Authorities"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "RVMs must integrate with the scheme Article List and report transaction data.",
+      "Transaction data must be protected with encryption and access controls.",
+      "Offline transactions must be stored and forwarded when connectivity returns.",
+      "RVM suppliers will need to enter a data processing agreement with Exchange for Change before installation."
+    ],
+    "allowedNumbers": [],
+    "angles": ["connected infrastructure", "data security", "real-time operations"],
+    "sourceLabel": "Exchange for Change RVM specification",
+    "sourceUrl": "https://exchangeforchange.co.uk/wp-content/uploads/2026/02/UK-DMO-RVM-Specification.pdf"
+  },
+  {
+    "id": "rvm-accessibility",
+    "title": "Accessible returns by design",
+    "category": "RVM technology",
+    "audiences": ["Retailers", "Government Authorities", "Consumers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "RVM installations should comply with disability access requirements, including the Equality Act 2010.",
+      "The consumer interface should be clear, consistent and easy to use.",
+      "The machine must provide an approved way to repay the deposit, with paper vouchers as a minimum option."
+    ],
+    "allowedNumbers": ["2010"],
+    "angles": ["inclusive design", "accessible store journey", "consumer-first infrastructure"],
+    "sourceLabel": "Exchange for Change RVM specification",
+    "sourceUrl": "https://exchangeforchange.co.uk/wp-content/uploads/2026/02/UK-DMO-RVM-Specification.pdf"
+  },
+  {
+    "id": "prepare-timeline",
+    "title": "Retailer readiness timeline",
+    "category": "Retailer readiness",
+    "audiences": ["Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Start by measuring store space, expected return volume and staffing capacity.",
+      "Compare manual return and automated RVM operating models.",
+      "Follow Exchange for Change guidance on registration, exemptions, grants and accredited suppliers.",
+      "Complete installation, staff training and customer communication before 1 October 2027."
+    ],
+    "allowedNumbers": ["1", "2027"],
+    "angles": ["countdown", "four-step plan", "readiness checklist"],
+    "sourceLabel": "Exchange for Change + GOV.UK",
+    "sourceUrl": "https://exchangeforchange.co.uk/faqs/"
+  },
+  {
+    "id": "customer-return-journey",
+    "title": "The customer return journey",
+    "category": "Consumer education",
+    "audiences": ["Consumers", "Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Buy an eligible drink and pay the 20p deposit.",
+      "Keep the empty container identifiable and return it to an approved return point.",
+      "Receive the deposit refund through the approved repayment method."
+    ],
+    "allowedNumbers": ["20"],
+    "angles": ["three simple steps", "return and reward", "first-time user guide"],
+    "sourceLabel": "GOV.UK + Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/faqs/"
+  },
+  {
+    "id": "circular-loop",
+    "title": "From bottle to bottle. From can to can.",
+    "category": "Environmental impact",
+    "audiences": ["Consumers", "Government Authorities", "Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "DRS creates a separate, cleaner collection stream for PET plastic and metals.",
+      "Cleaner material can improve recyclate quality and support closed-loop recycling.",
+      "Reusing material reduces demand for virgin resources."
+    ],
+    "allowedNumbers": [],
+    "angles": ["circular economy", "material journey", "resource value"],
+    "sourceLabel": "Defra",
+    "sourceUrl": "https://defraenvironment.blog.gov.uk/2025/01/31/introducing-the-deposit-return-scheme-for-drinks-containers/"
+  },
+  {
+    "id": "public-return-network",
+    "title": "Building a convenient return network",
+    "category": "Government and policy",
+    "audiences": ["Government Authorities", "Retailers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Groceries retailers are intended to form the primary return-point network.",
+      "A mix of manual and automated return points can serve different store formats and communities.",
+      "Exemptions depend on maintaining sufficient local access to return points."
+    ],
+    "allowedNumbers": [],
+    "angles": ["access map", "community infrastructure", "urban and rural coverage"],
+    "sourceLabel": "Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/news/exchange-for-change-announces-drs-support-for-retailers/"
+  },
+  {
+    "id": "scheme-governance",
+    "title": "Who runs the scheme?",
+    "category": "Government and policy",
+    "audiences": ["Government Authorities", "Retailers", "Consumers"],
+    "scope": "England, Scotland and Northern Ireland",
+    "facts": [
+      "Exchange for Change is the not-for-profit Deposit Management Organisation for England, Scotland and Northern Ireland.",
+      "It is responsible for designing and delivering the scheme infrastructure and operating rules.",
+      "Producers, retailers and the wider supply chain have responsibilities under the scheme."
+    ],
+    "allowedNumbers": [],
+    "angles": ["governance explainer", "who does what", "scheme ecosystem"],
+    "sourceLabel": "Exchange for Change",
+    "sourceUrl": "https://exchangeforchange.co.uk/"
+  },
+  {
+    "id": "wales-difference",
+    "title": "Wales: a separate DRS pathway",
+    "category": "Government and policy",
+    "audiences": ["Government Authorities", "Retailers", "Consumers"],
+    "scope": "Wales only",
+    "facts": [
+      "Wales is developing a separate scheme intended to launch on 1 October 2027.",
+      "Its scope includes PET, aluminium, steel and glass containers from 150ml to 3 litres.",
+      "Glass is planned to carry a zero-pence deposit during a transition period to 30 September 2031.",
+      "Do not combine Welsh glass rules with Exchange for Change messaging for England, Scotland and Northern Ireland."
+    ],
+    "allowedNumbers": ["1", "2027", "150", "3", "0", "30", "2031"],
+    "angles": ["four-nation clarity", "Wales-only explainer", "avoid mixed messaging"],
+    "sourceLabel": "Welsh Government",
+    "sourceUrl": "https://www.gov.wales/written-statement-deposit-return-scheme-drinks-containers-wales-regulations-2026"
+  },
+  {
+    "id": "wider-packaging-reforms",
+    "title": "DRS within the wider packaging reform programme",
+    "category": "Government and policy",
+    "audiences": ["Government Authorities"],
+    "scope": "UK packaging reforms",
+    "facts": [
+      "DRS sits alongside packaging Extended Producer Responsibility and simpler recycling reforms.",
+      "The Government estimates the combined packaging reforms could stimulate £10 billion of recycling investment over ten years and support up to 21,000 jobs in England.",
+      "These investment and jobs figures must not be attributed to DRS alone."
+    ],
+    "allowedNumbers": ["10", "21,000", "21000"],
+    "angles": ["policy ecosystem", "investment", "green jobs with attribution note"],
+    "sourceLabel": "UK Government",
+    "sourceUrl": "https://www.gov.uk/government/news/packuk-the-new-scheme-administrator-packaging-extended-producer-responsibility"
+  },
+  {
+    "id": "retearn-zero-capex",
+    "title": "Zero-capex RVM partnership for retailers",
+    "category": "ReteaRn product",
+    "audiences": ["Retailers"],
+    "scope": "ReteaRn product claim",
+    "facts": [
+      "ReteaRn's proposed partnership model is designed around zero upfront capex for the retailer.",
+      "ReteaRn owns and operates the machine, with monitoring and maintenance support.",
+      "Retailers can focus on compliance and customer experience while receiving the applicable return handling fee."
+    ],
+    "allowedNumbers": ["0"],
+    "angles": ["remove capex objection", "managed service", "compliance without complexity"],
+    "sourceLabel": "ReteaRn product brochure",
+    "sourceUrl": "internal-product-brochure"
+  },
+  {
+    "id": "reklaim-ace",
+    "title": "Reklaim Ace: compact AI-powered RVM",
+    "category": "ReteaRn product",
+    "audiences": ["Retailers"],
+    "scope": "ReteaRn product claim",
+    "facts": [
+      "The Reklaim Ace brochure states a 10.9 sq ft footprint, 900L storage and capacity for more than 1,500 returns per day.",
+      "The product is presented as an indoor or rain-proof outdoor, fully unsupervised RVM with remote monitoring.",
+      "All UK deployment claims remain subject to Exchange for Change certification and final accreditation."
+    ],
+    "allowedNumbers": ["10.9", "900", "1,500", "1500"],
+    "angles": ["small footprint", "high daily capacity", "AI-powered operations"],
+    "sourceLabel": "ReteaRn product brochure",
+    "sourceUrl": "internal-product-brochure"
+  },
+  {
+    "id": "rvm-market-education",
+    "title": "How to compare RVM suppliers",
+    "category": "RVM education",
+    "audiences": ["Retailers", "Government Authorities"],
+    "scope": "Internal sales enablement or neutral public education",
+    "facts": [
+      "Compare accredited compliance, store footprint, throughput, storage, uptime, service coverage, integration and total operating model.",
+      "Established suppliers position around different strengths, including global installed base, modular portfolios, compact machines and high-volume systems.",
+      "Public creatives should use a neutral supplier checklist rather than unverified competitor performance claims."
+    ],
+    "allowedNumbers": [],
+    "angles": ["scorecard", "procurement guide", "avoid price-only decisions"],
+    "sourceLabel": "Exchange for Change + supplier websites",
+    "sourceUrl": "https://exchangeforchange.co.uk/wp-content/uploads/2026/02/UK-DMO-RVM-Specification.pdf"
+  }
+]

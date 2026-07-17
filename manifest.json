@@ -1,0 +1,17 @@
+{
+  "version": "RETEARN-RVM-BANK-2026-07-17",
+  "canonical": "rvm-specification-reference.png",
+  "placement": "rvm-placement-reference.png",
+  "inputFidelity": "high",
+  "lockedFeatures": [
+    "civic-navy cabinet",
+    "silver-white trim",
+    "upper-left vertical touchscreen",
+    "upper-right circular inlet",
+    "amber inlet ring",
+    "receipt/card slot below inlet",
+    "1900 mm approximate height",
+    "650 mm approximate width",
+    "700 mm approximate depth"
+  ]
+}

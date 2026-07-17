@@ -1,0 +1,46 @@
+{
+  "reviewed": "2026-07-17",
+  "product": "retearn-uk",
+  "purpose": "Visual and editorial guardrails derived from official UK DRS guidance, Exchange for Change material and a review of public DRS imagery and retail return-point communication.",
+  "officialFacts": [
+    "Launch date: 1 October 2027 for England, Scotland and Northern Ireland.",
+    "Eligible materials: single-use PET plastic bottles, aluminium cans and steel cans.",
+    "Eligible sizes: 150ml to 3 litres.",
+    "Customers pay a refundable deposit and reclaim it by returning an eligible empty container.",
+    "Exchange for Change is the Deposit Management Organisation for England, Scotland and Northern Ireland.",
+    "Wales must be treated as a separate scheme and not silently combined into Exchange for Change content."
+  ],
+  "visualPatterns": [
+    "Show a simple circular journey: buy drink, pay deposit, return empty container, reclaim deposit, recycle into high-quality material.",
+    "Use recognisable PET bottle and metal can silhouettes rather than ambiguous packaging.",
+    "For consumer posts, show one clear return action and a visible, accessible inlet interaction.",
+    "For retailer posts, show realistic UK grocery, convenience-store or forecourt environments with practical floor-space context.",
+    "For public-sector posts, use system maps, material loops, collection-network diagrams and clean evidence-led infographic structures.",
+    "Use a single focal message, strong negative space and no more than three data cards.",
+    "Keep the approved ReteaRn UK RVM model visually exact whenever an RVM appears."
+  ],
+  "infographicGrammar": [
+    "Three-step return journey",
+    "Included versus excluded container comparison",
+    "Retailer obligation decision tree",
+    "Timeline to 1 October 2027",
+    "Return-point workflow",
+    "Circular material loop",
+    "RVM versus manual return-point comparison",
+    "Single-stat impact poster"
+  ],
+  "avoid": [
+    "Irish Re-turn branding, Irish deposit values or retailer graphics presented as UK scheme facts.",
+    "Competitor logos or generic machines when the ReteaRn UK RVM is required.",
+    "Glass containers in Exchange for Change scheme graphics unless the post explicitly discusses Wales separately.",
+    "Overloaded collages, tiny legal text, decorative flags, illegible interface text or unsupported figures.",
+    "Calling the deposit a tax, fine, discount or guaranteed retailer profit."
+  ],
+  "researchSources": [
+    "https://www.gov.uk/guidance/deposit-return-scheme-drinks-producer-and-retailer-responsibilities",
+    "https://exchangeforchange.co.uk/",
+    "https://www.legislation.gov.uk/uksi/2025/67/made",
+    "https://defraenvironment.blog.gov.uk/2025/01/31/introducing-the-deposit-return-scheme-for-drinks-containers/",
+    "https://exchangeforchange.co.uk/faqs/"
+  ]
+}

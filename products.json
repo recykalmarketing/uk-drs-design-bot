@@ -1,0 +1,28 @@
+[
+  {
+    "id": "retearn-uk",
+    "name": "ReteaRn UK",
+    "country": "United Kingdom",
+    "domain": "retearn.uk",
+    "status": "active",
+    "productScope": "UK Deposit Return Scheme education and RVM retailer solutions",
+    "logo": "./retearn-logo.svg",
+    "social": {
+      "linkedinPageUrl": "https://www.linkedin.com/company/retearn-uk/posts/?feedView=all",
+      "instagram": "planned"
+    },
+    "audiences": ["Retailers", "Consumers", "Government Authorities"],
+    "managers": {
+      "brand": "alokesh.sinha@recykal.com",
+      "design": "vinod.mylavarapu@recykal.com"
+    },
+    "brandRules": {
+      "font": "Poppins",
+      "logoPosition": "top-left",
+      "logoLocked": true,
+      "primaryInk": "#231f20",
+      "accentPurple": "#6a398c",
+      "safeSpace": "minimum one logo x-height on all sides"
+    }
+  }
+]

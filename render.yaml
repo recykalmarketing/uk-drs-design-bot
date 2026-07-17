@@ -3,21 +3,21 @@ services:
     name: uk-drs-design-bot
     runtime: node
     plan: free
-    buildCommand: npm ci --registry=https://registry.npmjs.org && npm run build
-    startCommand: npm start
+    buildCommand: echo "Prebuilt app ready - no dependency installation required"
+    startCommand: node server.js
     healthCheckPath: /api/health
     autoDeploy: true
     envVars:
       - key: NODE_VERSION
-        value: 20.19.0
+        value: 22.16.0
       - key: OPENAI_API_KEY
         sync: false
       - key: APP_ACCESS_CODE
         sync: false
       - key: OPENAI_TEXT_MODEL
-        value: gpt-5.6-luna
+        value: gpt-5.6
       - key: OPENAI_IMAGE_MODEL
-        value: gpt-image-1.5
+        value: gpt-image-2
       - key: OPENAI_IMAGE_QUALITY
         value: medium
       - key: MONTHLY_BUDGET_USD
@@ -27,8 +27,38 @@ services:
       - key: MONTHLY_REGENERATION_LIMIT
         value: 500
       - key: ESTIMATED_COPY_COST_USD
-        value: 0.008
+        value: 0.01
       - key: ESTIMATED_REGEN_COPY_COST_USD
-        value: 0.004
+        value: 0.005
+      - key: ESTIMATED_VISUAL_AUDIT_COST_USD
+        value: 0.003
+      - key: ENABLE_VISUAL_IP_AUDIT
+        value: true
       - key: USAGE_FILE
-        value: /tmp/uk-drs-design-bot-usage.json
+        value: /tmp/retearn-uk-usage.json
+      - key: WORKFLOW_FILE
+        value: /tmp/retearn-uk-workflows.json
+      - key: BRAND_MANAGER_EMAIL
+        value: alokesh.sinha@recykal.com
+      - key: DESIGN_MANAGER_EMAIL
+        value: vinod.mylavarapu@recykal.com
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: APP_BASE_URL
+        value: https://uk-drs-design-bot.onrender.com
+      - key: LINKEDIN_ACCESS_TOKEN
+        sync: false
+      - key: LINKEDIN_ORGANIZATION_URN
+        sync: false
+      - key: LINKEDIN_VERSION
+        value: 202606
+      - key: LINKEDIN_PAGE_URL
+        value: https://www.linkedin.com/company/retearn-uk/posts/?feedView=all
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_WORKFLOW_TABLE
+        value: retearn_creative_workflows

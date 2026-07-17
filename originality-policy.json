@@ -1,0 +1,20 @@
+{
+  "version": "RETEARN-UK-IP-1.0",
+  "product": "retearn.uk",
+  "principles": [
+    "Generate original ReteaRn UK copy, images, infographics and layouts from verified facts and user objectives.",
+    "Do not copy, trace, reproduce or imitate another brand, campaign, social post, stock image, infographic, artist style or platform creative.",
+    "Use only ReteaRn/Recykal-owned or authorised logos, product references and uploaded assets.",
+    "Keep all visible bottles, cans, packaging, uniforms and retail environments generic and unbranded unless documented permission is recorded.",
+    "Use factual source material for accuracy, but paraphrase source wording and retain source metadata for internal traceability.",
+    "Block automatic LinkedIn publishing until automated preflight and both human rights attestations are complete."
+  ],
+  "approvedHashtags": [
+    "#ReteaRnUK", "#UKDRS", "#DRSUK", "#DepositReturnScheme", "#CircularEconomy",
+    "#ReverseVending", "#RetailReadiness", "#RecyclingInfrastructure", "#BottleReturn",
+    "#CanReturn", "#RetailSustainability", "#ResourceRecovery"
+  ],
+  "externalAssetFetch": false,
+  "sourceUse": "facts-and-citations-only",
+  "humanApprovalRequired": true
+}

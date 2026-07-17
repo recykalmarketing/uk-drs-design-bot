@@ -1,0 +1,36 @@
+{
+  "version": "RETEARN-UK-RIGHTS-1.0",
+  "declaration": "Assets were supplied by the user for ReteaRn/Recykal use. The bot treats them as owned or authorised; legal ownership is not independently verified by the software.",
+  "assets": [
+    {
+      "id": "retearn-uk-logo",
+      "path": "reference/retearn-uk-logo.svg",
+      "type": "logo",
+      "rightsBasis": "user-declared owned-or-authorised",
+      "allowedUse": "ReteaRn UK social creative and dashboard overlay only"
+    },
+    {
+      "id": "retearn-rvm-placement-reference",
+      "path": "reference/rvm-placement-reference.png",
+      "type": "product-reference",
+      "rightsBasis": "user-declared owned-or-authorised",
+      "allowedUse": "high-fidelity ReteaRn UK RVM generation and compositing only"
+    },
+    {
+      "id": "retearn-rvm-specification-reference",
+      "path": "reference/rvm-specification-reference.png",
+      "type": "product-reference",
+      "rightsBasis": "user-declared owned-or-authorised",
+      "allowedUse": "ReteaRn UK RVM geometry and component-position reference only"
+    }
+  ],
+  "prohibited": [
+    "third-party logos or taglines",
+    "copied social posts or campaign layouts",
+    "downloaded web images without permission",
+    "competitor product replicas",
+    "copyrighted characters or celebrity likenesses",
+    "branded beverage packaging",
+    "artist-style imitation requests"
+  ]
+}

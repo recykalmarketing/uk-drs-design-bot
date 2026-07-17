@@ -1,58 +1,37 @@
-# Security and Budget Configuration
+# Security, rights and budget configuration
 
-## API key
+## Secrets
 
-The OpenAI API key must only exist as a backend environment variable named `OPENAI_API_KEY`.
+Keep every credential in Render environment variables. Never commit OpenAI, Resend, Supabase or LinkedIn credentials to GitHub or expose them through a `VITE_` browser variable.
 
-Never place it in:
+The OpenAI key previously shared in chat must remain revoked. Use a replacement project or service-account key in `OPENAI_API_KEY`.
 
-- `src/` files
-- `index.html`
-- `public/`
-- `render.yaml` as a literal value
-- a variable beginning with `VITE_`
-- GitHub commits
+Set `APP_ACCESS_CODE` so the public Render URL cannot trigger paid generation. Reviewer links use separate random workflow tokens.
 
-Use a dedicated project or service-account key rather than a personal key shared with the whole team.
+## Asset rights
 
-Set `APP_ACCESS_CODE` in Render so the public URL cannot trigger paid generation without the internal code. The code is stored only in browser session storage and sent to the backend in a request header.
+Only files declared in `reference/rights-manifest.json` may be used as visual references. The existing ReteaRn UK logo and RVM references are marked as user-declared owned or authorised. The software does not independently verify ownership.
 
-## Key rotation
+The bot does not automatically download Google Images, social posts, stock photographs, competitor artwork or platform creatives. Requests containing copying instructions, external asset URLs or unconfirmed rights are blocked.
 
-Any key pasted into chat, email, Slack or a ticket should be treated as exposed. Revoke it and create a replacement before deployment.
+## Budget target
 
-## Cost plan
+Production defaults:
 
-Configured plan:
+- text model: `gpt-5.6`
+- image model: `gpt-image-2`
+- image quality: `medium`
+- visual IP audit: enabled
+- 500 two-option batches per month
+- 500 one-option regenerations per month
+- estimated in-app ceiling: USD 95
 
-| Item | Setting |
-|---|---:|
-| Initial batches | 500/month |
-| Options per batch | 2 images |
-| Regenerations | 500/month |
-| Image model | gpt-image-1.5 |
-| Image quality | medium |
-| Text model | gpt-5.6-luna |
-| In-app guard | $95/month estimated |
+GPT Image 2 is token-priced, so exact cost varies with size, prompt length and reference-image inputs. The app uses conservative request estimates and includes an estimated visual-audit allowance. This is an operational guard, not a billing guarantee.
 
-Published image list-price assumptions used by the app:
+RVM edits can cost more because two reference images are included. Monitor actual OpenAI project usage during the first production month and lower limits if needed.
 
-| Output | Medium image cost |
-|---|---:|
-| 1024×1024 | $0.034 |
-| 1024×1536 | $0.050 |
-| 1536×1024 | $0.050 |
+## Persistent counters
 
-A full two-option batch therefore has an image cost of about $0.068–$0.10. The app adds a conservative $0.008 text allowance.
+Render Free storage is ephemeral. Use Supabase for durable approval history. The usage ledger defaults to a temporary Render file and may reset after redeploys, so configure OpenAI project budget alerts as a second control.
 
-Estimated 500-batch cost: approximately $38–$54.
-
-Estimated 500 additional one-image regenerations: approximately $19–$27.
-
-Planned combined estimate: approximately $57–$81.
-
-## Important limitation
-
-The in-app usage ledger is stored on the Render runtime filesystem. It survives normal requests but may reset after a redeploy, restart or instance replacement. It is useful as a practical secondary guard, not as the sole billing control.
-
-Set OpenAI project budget notifications as well. Platform project budgets are soft thresholds and do not stop requests, so the application guard remains important.
+Never rely on one cost or rights control alone. Final publication also requires Brand Manager and Design Manager attestations.
