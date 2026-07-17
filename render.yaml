@@ -3,7 +3,7 @@ services:
     name: uk-drs-design-bot
     runtime: node
     plan: free
-    buildCommand: echo "Prebuilt app ready - no dependency installation required"
+    buildCommand: echo "Single-file app ready"
     startCommand: node server.js
     healthCheckPath: /api/health
     autoDeploy: true
@@ -26,14 +26,6 @@ services:
         value: 500
       - key: MONTHLY_REGENERATION_LIMIT
         value: 500
-      - key: ESTIMATED_COPY_COST_USD
-        value: 0.01
-      - key: ESTIMATED_REGEN_COPY_COST_USD
-        value: 0.005
-      - key: ESTIMATED_VISUAL_AUDIT_COST_USD
-        value: 0.003
-      - key: ENABLE_VISUAL_IP_AUDIT
-        value: true
       - key: USAGE_FILE
         value: /tmp/retearn-uk-usage.json
       - key: WORKFLOW_FILE

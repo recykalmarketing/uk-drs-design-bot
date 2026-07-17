@@ -1,6 +1,6 @@
 {
-  "name": "retearn-uk-design-bot",
-  "version": "2.1.0",
+  "name": "retearn-uk-design-bot-single-file",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "scripts": {
