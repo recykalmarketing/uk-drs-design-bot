@@ -1,14 +1,8 @@
-RETEARN UK RENDER MODULE HOTFIX
-
-Upload these three JavaScript files to the ROOT of your GitHub repository and replace server.js:
+Upload all four JavaScript files to the ROOT of the GitHub repository, next to package.json and render.yaml:
 - server.js
 - qualityScoring.js
 - originalityCompliance.js
+- workflowService.js
 
-The server now imports the scoring modules from the repository root, avoiding missing nested src files during deployment.
-
-Render settings:
-Build Command: echo "Prebuilt app ready"
-Start Command: node server.js
-
-Then use Manual Deploy -> Clear build cache & deploy.
+Commit message: Fix all server module dependencies
+Then in Render use Manual Deploy > Clear build cache & deploy.
