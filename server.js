@@ -3,8 +3,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { enforcePublishReady, evaluateCreative, PUBLISH_READY_SCORE, QUALITY_GATE_VERSION } from './src/qualityScoring.js';
-import { APPROVED_HASHTAGS, COPYRIGHT_GATE_VERSION, validateRightsBrief } from './src/originalityCompliance.js';
+import { enforcePublishReady, evaluateCreative, PUBLISH_READY_SCORE, QUALITY_GATE_VERSION } from './qualityScoring.js';
+import { APPROVED_HASHTAGS, COPYRIGHT_GATE_VERSION, validateRightsBrief } from './originalityCompliance.js';
 import { createWorkflowService } from './workflowService.js';
 
 const __filename = fileURLToPath(import.meta.url);
