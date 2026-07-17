@@ -1,12 +1,8 @@
 {
-  "name": "retearn-uk-design-bot-single-file",
-  "version": "3.0.0",
+  "name": "retearn-uk-design-bot-fix-v5",
+  "version": "5.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=22 <25"
-  }
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=22 <25"}
 }

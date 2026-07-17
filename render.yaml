@@ -1,56 +1,8 @@
 services:
   - type: web
-    name: uk-drs-design-bot
-    runtime: node
-    plan: free
-    buildCommand: echo "Single-file app ready"
-    startCommand: node server.js
-    healthCheckPath: /api/health
+    name: retearn-uk-design-bot
+    env: node
+    plan: starter
+    buildCommand: ""
+    startCommand: npm start
     autoDeploy: true
-    envVars:
-      - key: NODE_VERSION
-        value: 22.16.0
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: APP_ACCESS_CODE
-        sync: false
-      - key: OPENAI_TEXT_MODEL
-        value: gpt-5.6
-      - key: OPENAI_IMAGE_MODEL
-        value: gpt-image-2
-      - key: OPENAI_IMAGE_QUALITY
-        value: medium
-      - key: MONTHLY_BUDGET_USD
-        value: 95
-      - key: MONTHLY_CREATIVE_BATCH_LIMIT
-        value: 500
-      - key: MONTHLY_REGENERATION_LIMIT
-        value: 500
-      - key: USAGE_FILE
-        value: /tmp/retearn-uk-usage.json
-      - key: WORKFLOW_FILE
-        value: /tmp/retearn-uk-workflows.json
-      - key: BRAND_MANAGER_EMAIL
-        value: alokesh.sinha@recykal.com
-      - key: DESIGN_MANAGER_EMAIL
-        value: vinod.mylavarapu@recykal.com
-      - key: RESEND_API_KEY
-        sync: false
-      - key: EMAIL_FROM
-        sync: false
-      - key: APP_BASE_URL
-        value: https://uk-drs-design-bot.onrender.com
-      - key: LINKEDIN_ACCESS_TOKEN
-        sync: false
-      - key: LINKEDIN_ORGANIZATION_URN
-        sync: false
-      - key: LINKEDIN_VERSION
-        value: 202606
-      - key: LINKEDIN_PAGE_URL
-        value: https://www.linkedin.com/company/retearn-uk/posts/?feedView=all
-      - key: SUPABASE_URL
-        sync: false
-      - key: SUPABASE_SERVICE_ROLE_KEY
-        sync: false
-      - key: SUPABASE_WORKFLOW_TABLE
-        value: retearn_creative_workflows
